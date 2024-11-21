@@ -1,9 +1,34 @@
+# Shopping Time E-commerce Platform
+
 ![Shopping Time](https://raw.githubusercontent.com/catherineisonline/shopping-time/main/src/assets/images/project-preview.webp)
+[Live Demo](https://shopping-time.vercel.app/)
 
-# [Shopping Time](https://shopping-time.vercel.app/)
-Shopping Time is an e-commerce website that has at least 150 women's clothing products with different sizes and color choices. You can choose various attributes like size and color. There is a cart where you can see added items and edit, add, or remove them. You can also set a currency of your choice.
+## Overview
 
-## Functionality Overview
+Shopping Time is a comprehensive e-commerce platform specializing in women's fashion, featuring an extensive catalog of 150+ clothing products.
+
+## Features
+
+### Product Management
+- Extensive Catalog: 150+ women's clothing products
+- Product Customization
+- Category Management
+- Attribute Selection
+
+### Shopping Experience
+- Cart Management
+- Multi-Currency Support
+- Secure Checkout
+
+## Technical Implementation
+
+### Core Technologies
+- React.js
+- Firebase/Firestore
+- React Router
+- UUID
+
+## Functionality Details
 Below is a comprehensive overview of the functionalities that the website offers:
 
 ### Managing Your Cart
@@ -85,16 +110,24 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Dependencies | APIs | Services 
+## Dependencies
 
-- [React Router](https://www.npmjs.com/package/react-router-dom)
-- [React Slider](https://www.npmjs.com/package/react-simple-image-slider)
-- [uuid](https://www.npmjs.com/package/uuid)
-- [Firestore](https://firebase.google.com/docs/firestore)
+### Core Dependencies
+- [React Router](https://www.npmjs.com/package/react-router-dom) - Routing and navigation
+- [React Slider](https://www.npmjs.com/package/react-simple-image-slider) - Image carousel functionality
+- [UUID](https://www.npmjs.com/package/uuid) - Unique identifier generation
+- [Firestore](https://firebase.google.com/docs/firestore) - Database and backend services
 
-## Contribution <a id="contribution"></a>
+## Contributing
 
-This project serves as a personal portfolio website to show off my personal skills. I do not accept any contributions like pull requests to this project however if you have any suggestions or ideas feel free to contact me or submit an idea in the [discussions](https://github.com/catherineisonline/shopping-time/discussions). Otherwise, you are free to fork this project and change it for your own purposes. 
+This project serves as a personal portfolio showcase. While direct contributions are not accepted, you're welcome to:
+- Submit suggestions via [discussions](https://github.com/catherineisonline/shopping-time/discussions)
+- Fork the project for personal use
+- Provide feedback on features and usability
 
-## License  <a id="license"></a>
-This project is released under the MIT [LICENSE](https://github.com/catherineisonline/shopping-time/blob/main/LICENSE). You can find the specific terms and conditions outlined in the LICENSE file. This means you're free to utilize, modify, and distribute the project according to the terms of the MIT License.
+## License
+
+Released under the MIT [LICENSE](https://github.com/catherineisonline/shopping-time/blob/main/LICENSE).
+See LICENSE file for detailed terms and conditions.
+
+© 2024 Shopping Time. All rights reserved.
