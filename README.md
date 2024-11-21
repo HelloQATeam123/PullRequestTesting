@@ -1,52 +1,69 @@
+[![Live Demo](https://img.shields.io/badge/demo-live-green)](https://shopping-time.vercel.app/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 ![Shopping Time](https://raw.githubusercontent.com/catherineisonline/shopping-time/main/src/assets/images/project-preview.webp)
 
 # [Shopping Time](https://shopping-time.vercel.app/)
 Shopping Time is an e-commerce website that has at least 150 women's clothing products with different sizes and color choices. You can choose various attributes like size and color. There is a cart where you can see added items and edit, add, or remove them. You can also set a currency of your choice.
 
-## Functionality Overview
+## Features
+
+### Core Functionality
 Below is a comprehensive overview of the functionalities that the website offers:
 
-### Managing Your Cart
-- Add and Remove Products: The website allows you to easily add products to your shopping cart with just a few clicks. You can also remove items from your cart when you change your mind or no longer wish to purchase them.
+### Shopping Experience
+- Cart Management
+  - Add/remove products with ease
+  - Adjust quantities flexibly
+  - Convenient cart overlay with product summaries
+  - Detailed product attributes display
+  
+- Product Navigation
+  - Intuitive category filtering
+  - Seamless category and product page shopping
+  - Smart attribute selection system
+  
+- Multi-Currency Support
+  - Support for EUR, GBP, AUD, JPY and more
+  - Real-time currency conversion
+  
+### Checkout Process
+- Secure checkout flow with multiple steps
+- Comprehensive form validations
+- Order confirmation system
 
-- Adjust Quantity: In addition to adding and removing items, you have the flexibility to change the quantity of products in your cart. Whether you want one more of your favorite item or need to reduce the quantity, it's a breeze.
+## Technical Stack
+- Frontend: React.js
+- State Management: React Hooks
+- Routing: React Router
+- Database: Firebase/Firestore
 
-- Cart Overlay: There is a convenient cart overlay that displays a summary of the items currently in your cart. This allows you to keep track of your selected items without navigating away from your shopping experience.
-
-- Product Attributes: When reviewing your cart or cart overlay, you'll find detailed information about each product, including selected size and other relevant attributes. This ensures you have a clear understanding of your choices before proceeding to checkout.
-
-### Streamlined Shopping
-- Category Filtering: The website makes it easy to find products within your preferred categories. You can filter products by various categories, making it simple to locate exactly what you're looking for.
-
-- Category and Product Page Shopping: Whether you prefer browsing by category or exploring individual product pages, you can add products to your cart from both locations. The website offers a seamless shopping experience to cater to your preferences.
-
-- Attribute Selection: To maintain accuracy and prevent errors, you won't be able to add products to your cart until you've selected necessary attributes like size or color. This ensures that the items you receive are exactly what you expect.
-
-### Flexible Currency Options
-- Currency Selection: The customers come from diverse locations around the world. That's why the website offers the flexibility to change the store currency to various options such as EUR, GBP, AUD, JPY, and more. Shop in the currency that suits you best.
-
-### Secure and User-Friendly Checkout
-- Multi-Step Checkout: The website features a multi-step checkout process to guide you through the purchase smoothly and securely. Each step is designed with user experience in mind.
-
-- Form Validations: To prevent errors and ensure accurate order information, the checkout page includes form validations. This guarantees that the necessary details are correctly entered, helping to streamline shopping experience.
-
-## Goals I achieved
+## Project Achievements
 - Practice React Class components and then refactor to hooks
 - Build logic to choose attributes and add items to the cart
 - Add form validations
 - Use Firebase to save data externally
 
 
-## Getting Started with Create React App
+## Getting Started
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn package manager
 
-To get started you need to:
-
-1. Clone the project
-2. npm install
-3. Install listed dependencies
-4. Use available scripts, like npm start
+### Installation
+1. Clone the repository
+   ```bash
+   git clone https://github.com/catherineisonline/shopping-time.git
+   ```
+2. Install dependencies
+   ```bash
+   npm install
+   ```
+3. Start development server
+   ```bash
+   npm start
+   ```
 
 ## Available Scripts <a id="scripts"></a>
 
@@ -85,16 +102,26 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Dependencies | APIs | Services 
+## Development
 
-- [React Router](https://www.npmjs.com/package/react-router-dom)
-- [React Slider](https://www.npmjs.com/package/react-simple-image-slider)
-- [uuid](https://www.npmjs.com/package/uuid)
-- [Firestore](https://firebase.google.com/docs/firestore)
+### Code Structure
+```
+src/
+├── components/    # Reusable UI components
+├── pages/        # Page components
+├── services/     # API and business logic
+├── utils/        # Helper functions
+└── assets/       # Static resources
+```
 
-## Contribution <a id="contribution"></a>
+### Dependencies
+- [React Router](https://www.npmjs.com/package/react-router-dom) - Routing
+- [React Slider](https://www.npmjs.com/package/react-simple-image-slider) - Image slider
+- [uuid](https://www.npmjs.com/package/uuid) - Unique ID generation
+- [Firestore](https://firebase.google.com/docs/firestore) - Database
 
-This project serves as a personal portfolio website to show off my personal skills. I do not accept any contributions like pull requests to this project however if you have any suggestions or ideas feel free to contact me or submit an idea in the [discussions](https://github.com/catherineisonline/shopping-time/discussions). Otherwise, you are free to fork this project and change it for your own purposes. 
+## Contributing
+While this project primarily serves as a personal portfolio piece, suggestions and ideas are welcome through [discussions](https://github.com/catherineisonline/shopping-time/discussions). Feel free to fork the project for your own use.
 
-## License  <a id="license"></a>
-This project is released under the MIT [LICENSE](https://github.com/catherineisonline/shopping-time/blob/main/LICENSE). You can find the specific terms and conditions outlined in the LICENSE file. This means you're free to utilize, modify, and distribute the project according to the terms of the MIT License.
+## License
+Released under the [MIT License](LICENSE). See LICENSE file for details.
