@@ -1,7 +1,25 @@
+# Shopping Time E-commerce Platform
+
 ![Shopping Time](https://raw.githubusercontent.com/catherineisonline/shopping-time/main/src/assets/images/project-preview.webp)
 
-# [Shopping Time](https://shopping-time.vercel.app/)
-Shopping Time is an e-commerce website that has at least 150 women's clothing products with different sizes and color choices. You can choose various attributes like size and color. There is a cart where you can see added items and edit, add, or remove them. You can also set a currency of your choice.
+[Live Demo](https://shopping-time.vercel.app/)
+
+## Overview
+Shopping Time is a comprehensive e-commerce platform specializing in women's fashion. With a catalog of over 150 products, the platform offers a sophisticated shopping experience with advanced product customization, multi-currency support, and seamless cart management.
+
+## Features
+
+### Product Management
+- Extensive catalog with 150+ women's clothing items
+- Multiple product attributes including size and color options
+- Organized category system for easy navigation
+- Detailed product customization capabilities
+
+### Shopping Experience
+- Intuitive cart management with add, edit, and remove functionality
+- Multi-currency support (EUR, GBP, AUD, JPY, etc.)
+- Streamlined checkout process with form validation
+- Real-time cart overlay for purchase tracking
 
 ## Functionality Overview
 Below is a comprehensive overview of the functionalities that the website offers:
