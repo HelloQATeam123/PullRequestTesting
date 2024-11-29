@@ -1,4 +1,9 @@
-![Shopping Time](https://raw.githubusercontent.com/catherineisonline/shopping-time/main/src/assets/images/project-preview.webp)
+# 🛍️ Shopping Time - Modern E-Commerce Platform
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![React](https://img.shields.io/badge/React-17.0.2-blue.svg)](https://reactjs.org/)
+[![Firebase](https://img.shields.io/badge/Firebase-9.0.0-orange.svg)](https://firebase.google.com/)
+
+![Shopping Time](src/assets/images/project-preview.webp)
 
 # [Shopping Time](https://shopping-time.vercel.app/)
 Shopping Time is an e-commerce website that has at least 150 women's clothing products with different sizes and color choices. You can choose various attributes like size and color. There is a cart where you can see added items and edit, add, or remove them. You can also set a currency of your choice.
