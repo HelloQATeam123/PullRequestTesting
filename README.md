@@ -1,3 +1,6 @@
+[![Live Demo](https://img.shields.io/badge/demo-live-green.svg)](https://your-demo-link)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 ![Shopping Time](https://raw.githubusercontent.com/catherineisonline/shopping-time/main/src/assets/images/project-preview.webp)
 
 # [Shopping Time](https://shopping-time.vercel.app/)
@@ -37,6 +40,32 @@ Below is a comprehensive overview of the functionalities that the website offers
 - Use Firebase to save data externally
 
 
+## 📁 Project Structure
+
+```
+├── public/
+├── src/
+│   ├── assets/
+│   │   └── images/
+│   ├── components/
+│   │   ├── attributes/
+│   │   ├── cart-overlay/
+│   │   ├── currency-overlay/
+│   │   └── header/
+│   ├── core-ui/
+│   ├── data/
+│   ├── database/
+│   ├── helpers/
+│   └── routes/
+```
+
+## 🛠 Tech Stack
+
+### Frontend
+- React.js 
+- CSS3
+- Firebase (Database)
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -48,30 +77,13 @@ To get started you need to:
 3. Install listed dependencies
 4. Use available scripts, like npm start
 
-## Available Scripts <a id="scripts"></a>
+## 📝 Available Scripts
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Command | Description |
+|---------|-------------|
+| `npm start` | Runs the app in development mode |
+| `npm test` | Launches the test runner |
+| `npm run build` | Builds the app for production |
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
@@ -93,5 +105,16 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 - [Firestore](https://firebase.google.com/docs/firestore)
 
 
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
 ## License  <a id="license"></a>
 This project is released under the MIT [LICENSE](https://github.com/catherineisonline/shopping-time/blob/main/LICENSE). You can find the specific terms and conditions outlined in the LICENSE file. This means you're free to utilize, modify, and distribute the project according to the terms of the MIT License.
+
+---
+<p align="center">Made with ❤️ by HelloQATeam123</p>
