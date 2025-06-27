@@ -1,40 +1,57 @@
-![Shopping Time](https://raw.githubusercontent.com/catherineisonline/shopping-time/main/src/assets/images/project-preview.webp)
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://shopping-time.vercel.app/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# [Shopping Time](https://shopping-time.vercel.app/)
-Shopping Time is an e-commerce website that has at least 150 women's clothing products with different sizes and color choices. You can choose various attributes like size and color. There is a cart where you can see added items and edit, add, or remove them. You can also set a currency of your choice.
+## Overview
 
-## Functionality Overview
-Below is a comprehensive overview of the functionalities that the website offers:
+Shopping Time is a modern e-commerce web application featuring over 150 women's clothing products with comprehensive customization options. Built with React, it provides a seamless shopping experience with dynamic product attributes, cart management, and multi-currency support.
 
-### Managing Your Cart
-- Add and Remove Products: The website allows you to easily add products to your shopping cart with just a few clicks. You can also remove items from your cart when you change your mind or no longer wish to purchase them.
+**🔗 [Live Demo](https://shopping-time.vercel.app/)**
 
-- Adjust Quantity: In addition to adding and removing items, you have the flexibility to change the quantity of products in your cart. Whether you want one more of your favorite item or need to reduce the quantity, it's a breeze.
+## Key Features
 
-- Cart Overlay: There is a convenient cart overlay that displays a summary of the items currently in your cart. This allows you to keep track of your selected items without navigating away from your shopping experience.
+### 🛒 **Cart Management**
+- **Add/Remove Products**: Intuitive product management with one-click actions
+- **Quantity Control**: Flexible quantity adjustments for all cart items
+- **Cart Overlay**: Real-time cart summary without page navigation
+- **Product Details**: Complete attribute information (size, color, etc.) in cart view
 
-- Product Attributes: When reviewing your cart or cart overlay, you'll find detailed information about each product, including selected size and other relevant attributes. This ensures you have a clear understanding of your choices before proceeding to checkout.
+### 🔍 **Enhanced Shopping Experience**
+- **Category Filtering**: Streamlined product discovery by category
+- **Multi-page Shopping**: Add products from both category and individual product pages
+- **Attribute Validation**: Required attribute selection prevents ordering errors
+- **Responsive Design**: Optimized for all device types
 
-### Streamlined Shopping
-- Category Filtering: The website makes it easy to find products within your preferred categories. You can filter products by various categories, making it simple to locate exactly what you're looking for.
+### 💰 **Multi-Currency Support**
+- **Global Accessibility**: Support for EUR, GBP, AUD, JPY, and more
+- **Dynamic Conversion**: Real-time currency switching
+- **Localized Experience**: Currency formatting based on user selection
 
-- Category and Product Page Shopping: Whether you prefer browsing by category or exploring individual product pages, you can add products to your cart from both locations. The website offers a seamless shopping experience to cater to your preferences.
+### 🔐 **Secure Checkout Process**
+- **Multi-step Flow**: Guided checkout process for optimal user experience
+- **Form Validation**: Comprehensive input validation to ensure data accuracy
+- **Error Prevention**: Built-in safeguards against common user errors
 
-- Attribute Selection: To maintain accuracy and prevent errors, you won't be able to add products to your cart until you've selected necessary attributes like size or color. This ensures that the items you receive are exactly what you expect.
+## Technical Achievements
 
-### Flexible Currency Options
-- Currency Selection: The customers come from diverse locations around the world. That's why the website offers the flexibility to change the store currency to various options such as EUR, GBP, AUD, JPY, and more. Shop in the currency that suits you best.
+- ✅ **React Architecture**: Implemented with both Class components and Hooks patterns
+- ✅ **State Management**: Complex cart logic with attribute handling
+- ✅ **Form Validation**: Robust client-side validation system
+- ✅ **External Data Persistence**: Firebase integration for data storage
+- ✅ **Performance Optimization**: Efficient rendering and state updates
 
-### Secure and User-Friendly Checkout
-- Multi-Step Checkout: The website features a multi-step checkout process to guide you through the purchase smoothly and securely. Each step is designed with user experience in mind.
+## Technology Stack
 
-- Form Validations: To prevent errors and ensure accurate order information, the checkout page includes form validations. This guarantees that the necessary details are correctly entered, helping to streamline shopping experience.
+| Category | Technologies |
+|----------|-------------|
+| **Frontend** | React, React Router DOM |
+| **UI Components** | React Simple Image Slider |
+| **Backend Services** | Firebase Firestore |
+| **Utilities** | UUID for unique identifiers |
+| **Build Tools** | Create React App |
 
-## Goals I achieved
-- Practice React Class components and then refactor to hooks
-- Build logic to choose attributes and add items to the cart
-- Add form validations
-- Use Firebase to save data externally
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
 
 ## Getting Started with Create React App
