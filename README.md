@@ -1,7 +1,81 @@
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://shopping-time.vercel.app/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ![Shopping Time](https://raw.githubusercontent.com/catherineisonline/shopping-time/main/src/assets/images/project-preview.webp)
 
 # [Shopping Time](https://shopping-time.vercel.app/)
-Shopping Time is an e-commerce website that has at least 150 women's clothing products with different sizes and color choices. You can choose various attributes like size and color. There is a cart where you can see added items and edit, add, or remove them. You can also set a currency of your choice.
+
+## Overview
+A modern e-commerce platform built with React and Firebase, offering a seamless shopping experience.
+
+## Features
+
+### 🛒 Cart Management
+- Real-time cart updates
+- Quantity adjustments 
+- Item removal
+
+### 🔍 Enhanced Shopping Experience
+- Product categorization
+- Detailed product views
+- Search functionality
+
+### 💰 Multi-Currency Support
+- Dynamic currency conversion
+- Multiple currency options
+- Real-time price updates
+
+### 🔐 Secure Checkout Process
+- Secure payment processing
+- Order confirmation
+- Transaction history
+
+## Technical Implementation
+
+### Architecture Highlights
+- Component-based architecture
+- Firebase backend integration
+- Responsive design
+
+### Technology Stack
+- React.js
+- Firebase
+- CSS3
+- HTML5
+
+## Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/HelloQATeam123/PullRequestTesting.git
+   cd PullRequestTesting
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start development server**
+   ```bash
+   npm start
+   ```
+
+## Available Scripts
+
+| Command | Description |
+|---------|-------------|
+| `npm start` | Runs the development server on port 3000 |
+| `npm test` | Launches the test runner in interactive watch mode |
+| `npm run build` | Creates an optimized production build |
+| `npm run eject` | Ejects from Create React App (irreversible) |
+
+## Contributing
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Open a pull request
 
 ## Functionality Overview
 Below is a comprehensive overview of the functionalities that the website offers:
@@ -95,3 +169,5 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## License  <a id="license"></a>
 This project is released under the MIT [LICENSE](https://github.com/catherineisonline/shopping-time/blob/main/LICENSE). You can find the specific terms and conditions outlined in the LICENSE file. This means you're free to utilize, modify, and distribute the project according to the terms of the MIT License.
+
+**Built with ❤️ using React and Firebase**
