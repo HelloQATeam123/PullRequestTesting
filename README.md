@@ -1,40 +1,50 @@
-![Shopping Time](https://raw.githubusercontent.com/catherineisonline/shopping-time/main/src/assets/images/project-preview.webp)
+# Shopping Time
 
-# [Shopping Time](https://shopping-time.vercel.app/)
-Shopping Time is an e-commerce website that has at least 150 women's clothing products with different sizes and color choices. You can choose various attributes like size and color. There is a cart where you can see added items and edit, add, or remove them. You can also set a currency of your choice.
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Site-blue)](https://shopping-time.vercel.app/)
 
-## Functionality Overview
-Below is a comprehensive overview of the functionalities that the website offers:
+A comprehensive e-commerce platform specializing in women's fashion, featuring over 150 products with customizable attributes and a robust shopping experience.
 
-### Managing Your Cart
-- Add and Remove Products: The website allows you to easily add products to your shopping cart with just a few clicks. You can also remove items from your cart when you change your mind or no longer wish to purchase them.
+## Features
 
-- Adjust Quantity: In addition to adding and removing items, you have the flexibility to change the quantity of products in your cart. Whether you want one more of your favorite item or need to reduce the quantity, it's a breeze.
+### Shopping Experience
+- **Product Catalog**: Browse 150+ women's clothing items
+- **Advanced Filtering**: Sort by categories and attributes
+- **Attribute Selection**: Customize size, color, and other product options
+- **Multi-Currency Support**: Shop in EUR, GBP, AUD, JPY, and more
 
-- Cart Overlay: There is a convenient cart overlay that displays a summary of the items currently in your cart. This allows you to keep track of your selected items without navigating away from your shopping experience.
+### Cart Management
+- **Dynamic Cart System**: Add, remove, and modify quantities
+- **Real-time Cart Overlay**: Quick view of selected items
+- **Attribute Tracking**: Clear display of selected product options
+- **Pre-purchase Validation**: Ensures all required attributes are selected
 
-- Product Attributes: When reviewing your cart or cart overlay, you'll find detailed information about each product, including selected size and other relevant attributes. This ensures you have a clear understanding of your choices before proceeding to checkout.
+### Checkout Process
+- **Secure Multi-step Checkout**: Streamlined purchase flow
+- **Form Validation**: Ensures accurate order information
+- **User-friendly Interface**: Intuitive navigation through purchase steps
 
-### Streamlined Shopping
-- Category Filtering: The website makes it easy to find products within your preferred categories. You can filter products by various categories, making it simple to locate exactly what you're looking for.
+## Installation
 
-- Category and Product Page Shopping: Whether you prefer browsing by category or exploring individual product pages, you can add products to your cart from both locations. The website offers a seamless shopping experience to cater to your preferences.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/HelloQATeam123/PullRequestTesting.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm start
+   ```
 
-- Attribute Selection: To maintain accuracy and prevent errors, you won't be able to add products to your cart until you've selected necessary attributes like size or color. This ensures that the items you receive are exactly what you expect.
+## Technology Stack
 
-### Flexible Currency Options
-- Currency Selection: The customers come from diverse locations around the world. That's why the website offers the flexibility to change the store currency to various options such as EUR, GBP, AUD, JPY, and more. Shop in the currency that suits you best.
-
-### Secure and User-Friendly Checkout
-- Multi-Step Checkout: The website features a multi-step checkout process to guide you through the purchase smoothly and securely. Each step is designed with user experience in mind.
-
-- Form Validations: To prevent errors and ensure accurate order information, the checkout page includes form validations. This guarantees that the necessary details are correctly entered, helping to streamline shopping experience.
-
-## Goals I achieved
-- Practice React Class components and then refactor to hooks
-- Build logic to choose attributes and add items to the cart
-- Add form validations
-- Use Firebase to save data externally
+- **Frontend Framework**: React
+- **Routing**: React Router
+- **Image Handling**: React Simple Image Slider
+- **Database**: Firebase Firestore
+- **Utilities**: UUID
 
 
 ## Getting Started with Create React App
