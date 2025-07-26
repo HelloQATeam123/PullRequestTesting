@@ -1,6 +1,58 @@
+[![Live Demo](https://img.shields.io/badge/demo-live-green)](https://your-demo-url.com)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 ![Shopping Time](https://raw.githubusercontent.com/catherineisonline/shopping-time/main/src/assets/images/project-preview.webp)
 
 # [Shopping Time](https://shopping-time.vercel.app/)
+
+## 🛠 Technology Stack
+- React.js 
+- Firebase
+- CSS3
+
+## 🚀 Installation
+```bash
+git clone https://github.com/HelloQATeam123/PullRequestTesting.git
+cd PullRequestTesting
+npm install
+npm start
+```
+
+## 📁 Project Structure
+- `/public` - Static assets and HTML template
+- `/src/components` - React components including cart and product features  
+- `/src/core-ui` - CSS styles and responsive design
+- `/src/routes` - Application routes for products, cart and checkout
+- `/src/data` - Product data and configurations
+- `/src/database` - Firebase configuration
+
+## Key Features
+- Shopping cart with add/remove functionality
+- Product filtering and search
+- Secure checkout process
+- Multiple currency support
+- Responsive design
+- Form validation
+- Firebase integration
+
+## Contributing
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/improvement`)
+3. Make changes and commit (`git commit -am 'Add feature'`)
+4. Push to the branch (`git push origin feature/improvement`)
+5. Open a Pull Request
+
+## Command Reference
+| Command | Description |
+|---------|-------------|
+| npm start | Start development server |
+| npm test | Run tests |
+| npm run build | Create production build |
+
+## Acknowledgments
+- React.js community
+- Firebase team
+- All contributors
 Shopping Time is an e-commerce website that has at least 150 women's clothing products with different sizes and color choices. You can choose various attributes like size and color. There is a cart where you can see added items and edit, add, or remove them. You can also set a currency of your choice.
 
 ## Functionality Overview
