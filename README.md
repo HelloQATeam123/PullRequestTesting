@@ -1,7 +1,16 @@
-![Shopping Time](https://raw.githubusercontent.com/catherineisonline/shopping-time/main/src/assets/images/project-preview.webp)
+# React E-Commerce Shopping Cart Application
 
-# [Shopping Time](https://shopping-time.vercel.app/)
-Shopping Time is an e-commerce website that has at least 150 women's clothing products with different sizes and color choices. You can choose various attributes like size and color. There is a cart where you can see added items and edit, add, or remove them. You can also set a currency of your choice.
+A comprehensive React-based e-commerce shopping cart application featuring product browsing, cart management, and checkout functionality. This application provides a complete shopping experience with product catalog, cart operations, quantity management, and secure checkout process.
+
+## Features
+
+- **Product Catalog**: Browse through a comprehensive collection of products with detailed information
+- **Shopping Cart**: Add, remove, and manage items in your shopping cart
+- **Quantity Management**: Easily adjust product quantities in your cart
+- **Checkout Process**: Multi-step checkout with form validation
+- **Currency Selection**: Support for multiple currencies (EUR, GBP, AUD, JPY, and more)
+- **Firebase Integration**: External data storage and management
+- **Responsive Design**: Optimized for various screen sizes and devices
 
 ## Functionality Overview
 Below is a comprehensive overview of the functionalities that the website offers:
@@ -30,23 +39,55 @@ Below is a comprehensive overview of the functionalities that the website offers
 
 - Form Validations: To prevent errors and ensure accurate order information, the checkout page includes form validations. This guarantees that the necessary details are correctly entered, helping to streamline shopping experience.
 
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/HelloQATeam123/PullRequestTesting.git
+cd PullRequestTesting
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm start
+```
+
+## Project Structure
+
+- `src/components/` - React components for the application
+- `src/routes/` - Page routing and navigation
+- `src/data/` - Product data and configurations
+- `src/database/` - Firebase configuration and database operations
+
+## Usage
+
+1. **Browse Products**: Navigate through the product catalog to explore available items
+2. **Add to Cart**: Select product attributes (size, color) and add items to your shopping cart
+3. **Manage Cart**: View cart contents, adjust quantities, or remove items as needed
+4. **Checkout**: Complete your purchase through the multi-step checkout process with form validation
+5. **Currency Selection**: Choose your preferred currency for pricing display
+
+## Technologies Used
+
+- **React** - Frontend framework for building user interfaces
+- **Firebase** - Backend services for data storage and management
+- **CSS** - Styling and responsive design
+- **JavaScript** - Core programming language
+
 ## Goals I achieved
 - Practice React Class components and then refactor to hooks
 - Build logic to choose attributes and add items to the cart
 - Add form validations
 - Use Firebase to save data externally
 
-
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-To get started you need to:
-
-1. Clone the project
-2. npm install
-3. Install listed dependencies
-4. Use available scripts, like npm start
 
 ## Available Scripts <a id="scripts"></a>
 
@@ -92,6 +133,17 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 - [uuid](https://www.npmjs.com/package/uuid)
 - [Firestore](https://firebase.google.com/docs/firestore)
 
+## Contributing
+
+We welcome contributions to improve this React e-commerce application! Please follow these guidelines:
+
+1. Fork the repository
+2. Create a feature branch for your changes
+3. Make your modifications and test thoroughly
+4. Submit a pull request with a clear description of your changes
+5. Ensure your code follows the existing style and conventions
+
+Please refer to the [LICENSE](LICENSE) file for terms and conditions.
 
 ## License  <a id="license"></a>
-This project is released under the MIT [LICENSE](https://github.com/catherineisonline/shopping-time/blob/main/LICENSE). You can find the specific terms and conditions outlined in the LICENSE file. This means you're free to utilize, modify, and distribute the project according to the terms of the MIT License.
+This project is released under the MIT [LICENSE](LICENSE). You can find the specific terms and conditions outlined in the LICENSE file. This means you're free to utilize, modify, and distribute the project according to the terms of the MIT License.
