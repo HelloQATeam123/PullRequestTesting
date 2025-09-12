@@ -1,7 +1,16 @@
-![Shopping Time](https://raw.githubusercontent.com/catherineisonline/shopping-time/main/src/assets/images/project-preview.webp)
+# PullRequestTesting
 
-# [Shopping Time](https://shopping-time.vercel.app/)
-Shopping Time is an e-commerce website that has at least 150 women's clothing products with different sizes and color choices. You can choose various attributes like size and color. There is a cart where you can see added items and edit, add, or remove them. You can also set a currency of your choice.
+A React-based e-commerce application featuring shopping cart functionality, product catalog, and order management. This project demonstrates modern web development practices with React components, Firebase integration, and responsive design.
+
+## Features
+
+- Product catalog with detailed product pages
+- Shopping cart with add/remove functionality
+- Quantity management for cart items
+- Order processing and checkout
+- Currency selection overlay
+- Responsive design for mobile and desktop
+- Firebase database integration
 
 ## Functionality Overview
 Below is a comprehensive overview of the functionalities that the website offers:
@@ -37,16 +46,57 @@ Below is a comprehensive overview of the functionalities that the website offers
 - Use Firebase to save data externally
 
 
-## Getting Started with Create React App
+## Installation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/HelloQATeam123/PullRequestTesting.git
+   ```
 
-To get started you need to:
+2. Navigate to the project directory:
+   ```bash
+   cd PullRequestTesting
+   ```
 
-1. Clone the project
-2. npm install
-3. Install listed dependencies
-4. Use available scripts, like npm start
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Set up Firebase configuration:
+   - Create a Firebase project
+   - Add your Firebase config to `src/database/firebase.js`
+
+5. Start the development server:
+   ```bash
+   npm start
+   ```
+
+The application will open in your browser at `http://localhost:3000`.
+
+## Usage
+
+### Running the Application
+```bash
+npm start
+```
+
+### Building for Production
+```bash
+npm run build
+```
+
+### Running Tests
+```bash
+npm test
+```
+
+### Project Structure
+- `src/components/` - Reusable React components
+- `src/routes/` - Page components and routing
+- `src/data/` - Product data and configurations
+- `src/database/` - Firebase integration
+- `src/core-ui/` - Global styles and CSS
 
 ## Available Scripts <a id="scripts"></a>
 
@@ -85,6 +135,16 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+Please ensure your code follows the existing style conventions and includes appropriate tests.
+
 ## Dependencies | APIs | Services 
 
 - [React Router](https://www.npmjs.com/package/react-router-dom)
@@ -92,6 +152,6 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 - [uuid](https://www.npmjs.com/package/uuid)
 - [Firestore](https://firebase.google.com/docs/firestore)
 
+## License
 
-## License  <a id="license"></a>
-This project is released under the MIT [LICENSE](https://github.com/catherineisonline/shopping-time/blob/main/LICENSE). You can find the specific terms and conditions outlined in the LICENSE file. This means you're free to utilize, modify, and distribute the project according to the terms of the MIT License.
+This project is licensed under the MIT License - see the LICENSE file for details.
