@@ -1,97 +1,161 @@
-![Shopping Time](https://raw.githubusercontent.com/catherineisonline/shopping-time/main/src/assets/images/project-preview.webp)
+![Shopping Time](https://raw.githubusercontent.com/HelloQATeam123/PullRequestTesting/main/src/assets/images/project-preview.webp)
 
-# [Shopping Time](https://shopping-time.vercel.app/)
-Shopping Time is an e-commerce website that has at least 150 women's clothing products with different sizes and color choices. You can choose various attributes like size and color. There is a cart where you can see added items and edit, add, or remove them. You can also set a currency of your choice.
+# Shopping Time
 
-## Functionality Overview
-Below is a comprehensive overview of the functionalities that the website offers:
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://pullrequesttesting.vercel.app/)
+[![React](https://img.shields.io/badge/React-18.x-blue)](https://reactjs.org/)
+[![Firebase](https://img.shields.io/badge/Firebase-9.x-orange)](https://firebase.google.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-### Managing Your Cart
-- Add and Remove Products: The website allows you to easily add products to your shopping cart with just a few clicks. You can also remove items from your cart when you change your mind or no longer wish to purchase them.
+A modern, responsive e-commerce platform built with React, featuring over 150 women's clothing products with comprehensive shopping cart functionality and multi-currency support.
 
-- Adjust Quantity: In addition to adding and removing items, you have the flexibility to change the quantity of products in your cart. Whether you want one more of your favorite item or need to reduce the quantity, it's a breeze.
+## 🌟 Features
 
-- Cart Overlay: There is a convenient cart overlay that displays a summary of the items currently in your cart. This allows you to keep track of your selected items without navigating away from your shopping experience.
+**Shopping Cart Management**
+- Add/remove products with real-time updates
+- Quantity adjustment with inventory validation
+- Persistent cart state across sessions
+- Interactive cart overlay for quick access
 
-- Product Attributes: When reviewing your cart or cart overlay, you'll find detailed information about each product, including selected size and other relevant attributes. This ensures you have a clear understanding of your choices before proceeding to checkout.
+**Product Catalog**
+- 150+ curated women's clothing items
+- Advanced filtering by category, size, and color
+- Detailed product pages with multiple images
+- Attribute selection (size, color) before purchase
 
-### Streamlined Shopping
-- Category Filtering: The website makes it easy to find products within your preferred categories. You can filter products by various categories, making it simple to locate exactly what you're looking for.
+**Multi-Currency Support**
+- Dynamic currency conversion (EUR, GBP, AUD, JPY, USD)
+- Real-time exchange rate updates
+- Localized pricing display
 
-- Category and Product Page Shopping: Whether you prefer browsing by category or exploring individual product pages, you can add products to your cart from both locations. The website offers a seamless shopping experience to cater to your preferences.
+**Secure Checkout Process**
+- Multi-step checkout workflow
+- Comprehensive form validation
+- Error handling and user feedback
+- Firebase integration for data persistence
 
-- Attribute Selection: To maintain accuracy and prevent errors, you won't be able to add products to your cart until you've selected necessary attributes like size or color. This ensures that the items you receive are exactly what you expect.
+## 🚀 Quick Start
 
-### Flexible Currency Options
-- Currency Selection: The customers come from diverse locations around the world. That's why the website offers the flexibility to change the store currency to various options such as EUR, GBP, AUD, JPY, and more. Shop in the currency that suits you best.
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn package manager
 
-### Secure and User-Friendly Checkout
-- Multi-Step Checkout: The website features a multi-step checkout process to guide you through the purchase smoothly and securely. Each step is designed with user experience in mind.
+### Installation
 
-- Form Validations: To prevent errors and ensure accurate order information, the checkout page includes form validations. This guarantees that the necessary details are correctly entered, helping to streamline shopping experience.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/HelloQATeam123/PullRequestTesting.git
+   cd PullRequestTesting
+   ```
 
-## Goals I achieved
-- Practice React Class components and then refactor to hooks
-- Build logic to choose attributes and add items to the cart
-- Add form validations
-- Use Firebase to save data externally
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
+3. **Start the development server**
+   ```bash
+   npm start
+   ```
 
-## Getting Started with Create React App
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🛠️ Technology Stack
 
-To get started you need to:
+- **Frontend**: React 18.x with Hooks
+- **Routing**: React Router DOM
+- **Database**: Firebase Firestore
+- **Styling**: CSS3 with responsive design
+- **Build Tool**: Create React App
+- **Deployment**: Vercel
 
-1. Clone the project
-2. npm install
-3. Install listed dependencies
-4. Use available scripts, like npm start
+## 📁 Project Structure
 
-## Available Scripts <a id="scripts"></a>
+```
+PullRequestTesting/
+├── public/
+├── src/
+│   ├── components/
+│   ├── routes/
+│   ├── assets/
+│   ├── core-ui/
+│   ├── data/
+│   ├── database/
+│   ├── helpers/
+│   └── App.js
+├── package.json
+└── README.md
+```
 
-In the project directory, you can run:
+## 🎯 Development Goals Achieved
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Dependencies | APIs | Services 
-
-- [React Router](https://www.npmjs.com/package/react-router-dom)
-- [React Slider](https://www.npmjs.com/package/react-simple-image-slider)
-- [uuid](https://www.npmjs.com/package/uuid)
-- [Firestore](https://firebase.google.com/docs/firestore)
+- ✅ Implemented React Class components and refactored to Hooks
+- ✅ Built comprehensive cart management logic
+- ✅ Integrated form validation throughout the application
+- ✅ Established Firebase backend for data persistence
+- ✅ Created responsive, mobile-first design
+- ✅ Implemented multi-currency support
 
 
-## License  <a id="license"></a>
-This project is released under the MIT [LICENSE](https://github.com/catherineisonline/shopping-time/blob/main/LICENSE). You can find the specific terms and conditions outlined in the LICENSE file. This means you're free to utilize, modify, and distribute the project according to the terms of the MIT License.
+## 📜 Available Scripts
+
+| Command | Description |
+|---------|-------------|
+| `npm start` | Runs the app in development mode on [http://localhost:3000](http://localhost:3000) |
+| `npm test` | Launches the test runner in interactive watch mode |
+| `npm run build` | Builds the app for production to the `build` folder |
+| `npm run eject` | **One-way operation** - Ejects from Create React App configuration |
+
+## 🧪 Testing
+
+Run the test suite with:
+```bash
+npm test
+```
+
+## 🚀 Deployment
+
+### Production Build
+```bash
+npm run build
+```
+
+The build folder will contain the optimized production files ready for deployment.
+
+### Deploy to Vercel
+1. Install Vercel CLI: `npm i -g vercel`
+2. Run: `vercel --prod`
+3. Follow the prompts to deploy
+
+## 📦 Dependencies
+
+### Core Dependencies
+| Package | Version | Purpose |
+|---------|---------|---------|
+| [React Router DOM](https://www.npmjs.com/package/react-router-dom) | Latest | Client-side routing |
+| [React Simple Image Slider](https://www.npmjs.com/package/react-simple-image-slider) | Latest | Product image galleries |
+| [UUID](https://www.npmjs.com/package/uuid) | Latest | Unique identifier generation |
+| [Firebase](https://firebase.google.com/docs/firestore) | 9.x | Backend services &amp; database |
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/HelloQATeam123/PullRequestTesting/blob/main/LICENSE) file for details.
+
+## 👨‍💻 Author
+
+**HelloQATeam123**
+- GitHub: [@HelloQATeam123](https://github.com/HelloQATeam123)
+- Repository: [PullRequestTesting](https://github.com/HelloQATeam123/PullRequestTesting)
+
+---
+
+⭐ Star this repository if you found it helpful!
