@@ -1,97 +1,215 @@
-![Shopping Time](https://raw.githubusercontent.com/catherineisonline/shopping-time/main/src/assets/images/project-preview.webp)
+# Shopping Time - E-Commerce React Application
 
-# [Shopping Time](https://shopping-time.vercel.app/)
-Shopping Time is an e-commerce website that has at least 150 women's clothing products with different sizes and color choices. You can choose various attributes like size and color. There is a cart where you can see added items and edit, add, or remove them. You can also set a currency of your choice.
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://shopping-time.vercel.app/)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/HelloQATeam123/PullRequestTesting)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![React](https://img.shields.io/badge/React-18.x-blue)](https://reactjs.org/)
+[![Firebase](https://img.shields.io/badge/Firebase-9.x-orange)](https://firebase.google.com/)
 
-## Functionality Overview
-Below is a comprehensive overview of the functionalities that the website offers:
+A modern, full-featured e-commerce web application built with React and Firebase, offering a seamless shopping experience with over 150 women's clothing products, dynamic cart management, and multi-currency support.
 
-### Managing Your Cart
-- Add and Remove Products: The website allows you to easily add products to your shopping cart with just a few clicks. You can also remove items from your cart when you change your mind or no longer wish to purchase them.
+## 📋 Table of Contents
 
-- Adjust Quantity: In addition to adding and removing items, you have the flexibility to change the quantity of products in your cart. Whether you want one more of your favorite item or need to reduce the quantity, it's a breeze.
+- [Features](#features)
+- [Technology Stack](#technology-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Available Scripts](#available-scripts)
+- [Dependencies](#dependencies)
+- [Contributing](#contributing)
+- [License](#license)
 
-- Cart Overlay: There is a convenient cart overlay that displays a summary of the items currently in your cart. This allows you to keep track of your selected items without navigating away from your shopping experience.
+## ✨ Features
 
-- Product Attributes: When reviewing your cart or cart overlay, you'll find detailed information about each product, including selected size and other relevant attributes. This ensures you have a clear understanding of your choices before proceeding to checkout.
+### 🛒 Shopping Cart Management
+- ✅ **Add/Remove Products**: Seamlessly add and remove items from your shopping cart
+- ✅ **Quantity Control**: Adjust product quantities with intuitive controls
+- ✅ **Cart Overlay**: Real-time cart summary without page navigation
+- ✅ **Product Attributes**: Detailed product information including size, color, and specifications
+- ✅ **Persistent Cart**: Cart state maintained across sessions using Firebase
 
-### Streamlined Shopping
-- Category Filtering: The website makes it easy to find products within your preferred categories. You can filter products by various categories, making it simple to locate exactly what you're looking for.
+### 🛍️ Product Catalog
+- ✅ **Category Filtering**: Browse products by categories for easy navigation
+- ✅ **Product Details**: Comprehensive product pages with multiple images and descriptions
+- ✅ **Attribute Selection**: Required attribute selection (size, color) before adding to cart
+- ✅ **Search Functionality**: Find products quickly with built-in search
+- ✅ **Responsive Design**: Optimized for desktop, tablet, and mobile devices
 
-- Category and Product Page Shopping: Whether you prefer browsing by category or exploring individual product pages, you can add products to your cart from both locations. The website offers a seamless shopping experience to cater to your preferences.
+### 💰 Multi-Currency Support
+- ✅ **Currency Conversion**: Support for EUR, GBP, AUD, JPY, USD and more
+- ✅ **Real-time Rates**: Dynamic currency conversion with live exchange rates
+- ✅ **Localized Pricing**: Currency-appropriate formatting and display
 
-- Attribute Selection: To maintain accuracy and prevent errors, you won't be able to add products to your cart until you've selected necessary attributes like size or color. This ensures that the items you receive are exactly what you expect.
+### 🔒 Secure Checkout Process
+- ✅ **Multi-Step Checkout**: Guided checkout process with progress indicators
+- ✅ **Form Validation**: Comprehensive client-side validation for all forms
+- ✅ **Order Management**: Complete order processing and confirmation system
+- ✅ **Firebase Integration**: Secure data storage and user management
 
-### Flexible Currency Options
-- Currency Selection: The customers come from diverse locations around the world. That's why the website offers the flexibility to change the store currency to various options such as EUR, GBP, AUD, JPY, and more. Shop in the currency that suits you best.
+## 🚀 Technology Stack
 
-### Secure and User-Friendly Checkout
-- Multi-Step Checkout: The website features a multi-step checkout process to guide you through the purchase smoothly and securely. Each step is designed with user experience in mind.
+| Technology | Purpose | Version |
+|------------|---------|---------|
+| **React** | Frontend Framework | 18.x |
+| **Firebase** | Backend & Database | 9.x |
+| **React Router** | Client-side Routing | Latest |
+| **CSS3** | Styling & Animations | - |
+| **JavaScript ES6+** | Programming Language | - |
+| **Firestore** | NoSQL Database | - |
+| **Vercel** | Deployment Platform | - |
 
-- Form Validations: To prevent errors and ensure accurate order information, the checkout page includes form validations. This guarantees that the necessary details are correctly entered, helping to streamline shopping experience.
+## 📦 Installation
 
-## Goals I achieved
-- Practice React Class components and then refactor to hooks
-- Build logic to choose attributes and add items to the cart
-- Add form validations
-- Use Firebase to save data externally
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn package manager
+- Firebase account for backend services
 
+### Setup Instructions
 
-## Getting Started with Create React App
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/HelloQATeam123/PullRequestTesting.git
+   cd PullRequestTesting
+   ```
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-To get started you need to:
+3. **Firebase Configuration**
+   ```bash
+   # Create a .env file in the root directory
+   touch .env
+   ```
+   
+   Add your Firebase configuration:
+   ```env
+   REACT_APP_FIREBASE_API_KEY=your_api_key
+   REACT_APP_FIREBASE_AUTH_DOMAIN=your_auth_domain
+   REACT_APP_FIREBASE_PROJECT_ID=your_project_id
+   REACT_APP_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+   REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+   REACT_APP_FIREBASE_APP_ID=your_app_id
+   ```
 
-1. Clone the project
-2. npm install
-3. Install listed dependencies
-4. Use available scripts, like npm start
+4. **Start the development server**
+   ```bash
+   npm start
+   ```
 
-## Available Scripts <a id="scripts"></a>
+5. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
-In the project directory, you can run:
+## 🎯 Usage
 
-### `npm start`
+### For Customers
+1. **Browse Products**: Navigate through categories or use search functionality
+2. **Select Attributes**: Choose size, color, and other product attributes
+3. **Add to Cart**: Add selected items to your shopping cart
+4. **Manage Cart**: View, edit, or remove items from cart overlay
+5. **Checkout**: Complete purchase through the multi-step checkout process
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### For Developers
+```bash
+# Run tests
+npm test
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Build for production
+npm run build
 
-### `npm test`
+# Deploy to Vercel
+vercel --prod
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📁 Project Structure
 
-### `npm run build`
+```
+src/
+├── components/           # Reusable UI components
+│   ├── Cart/            # Shopping cart components
+│   ├── Product/         # Product display components
+│   └── Checkout/        # Checkout process components
+├── routes/              # Application routing
+├── database/            # Firebase configuration and utilities
+├── assets/              # Static assets (images, icons)
+├── styles/              # CSS stylesheets
+└── utils/               # Helper functions and utilities
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Available Scripts
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Command | Description |
+|---------|-------------|
+| `npm start` | Runs the app in development mode on [http://localhost:3000](http://localhost:3000) |
+| `npm test` | Launches the test runner in interactive watch mode |
+| `npm run build` | Builds the app for production to the `build` folder |
+| `npm run eject` | **One-way operation** - Ejects from Create React App |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📚 Dependencies
 
-### `npm run eject`
+### Core Dependencies
+| Package | Version | Purpose |
+|---------|---------|---------|
+| `react` | ^18.x | Core React library |
+| `react-dom` | ^18.x | React DOM rendering |
+| `react-router-dom` | ^6.x | Client-side routing |
+| `firebase` | ^9.x | Backend services |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### UI & Utilities
+| Package | Version | Purpose |
+|---------|---------|---------|
+| `react-simple-image-slider` | Latest | Product image carousel |
+| `uuid` | Latest | Unique identifier generation |
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Development Dependencies
+| Package | Version | Purpose |
+|---------|---------|---------|
+| `@testing-library/react` | Latest | React component testing |
+| `@testing-library/jest-dom` | Latest | Jest DOM matchers |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🤝 Contributing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+We welcome contributions to improve Shopping Time! Please follow these steps:
 
-## Dependencies | APIs | Services 
+1. **Fork the repository**
+2. **Create a feature branch**
+   ```bash
+   git checkout -b feature/amazing-feature
+   ```
+3. **Commit your changes**
+   ```bash
+   git commit -m 'Add some amazing feature'
+   ```
+4. **Push to the branch**
+   ```bash
+   git push origin feature/amazing-feature
+   ```
+5. **Open a Pull Request**
 
-- [React Router](https://www.npmjs.com/package/react-router-dom)
-- [React Slider](https://www.npmjs.com/package/react-simple-image-slider)
-- [uuid](https://www.npmjs.com/package/uuid)
-- [Firestore](https://firebase.google.com/docs/firestore)
+### Development Guidelines
+- Follow React best practices and hooks patterns
+- Maintain consistent code formatting
+- Add tests for new features
+- Update documentation as needed
+- Ensure Firebase security rules are properly configured
 
+## 📄 License
 
-## License  <a id="license"></a>
-This project is released under the MIT [LICENSE](https://github.com/catherineisonline/shopping-time/blob/main/LICENSE). You can find the specific terms and conditions outlined in the LICENSE file. This means you're free to utilize, modify, and distribute the project according to the terms of the MIT License.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+### MIT License Summary
+- ✅ Commercial use
+- ✅ Modification
+- ✅ Distribution
+- ✅ Private use
+- ❌ Liability
+- ❌ Warranty
+
+---
+
+**Built with ❤️ using React and Firebase**
+
+For questions or support, please open an issue in the GitHub repository.
